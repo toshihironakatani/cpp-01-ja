@@ -2,7 +2,7 @@
 #include <string>
 
 
-int dummy_main() {
+int main() {
     // このプログラムに書かれているすべての手順を完了してください。
     // プログラムをコンパイルして実行してください (エラーが出ない状態にしてください)。
 
@@ -41,11 +41,11 @@ int dummy_main() {
 
     // 3つの定数変数を作成してください。データ型はどれでもかまいませんが、各変数のデータ型が異なるようにしてください。
     // ここに定数変数1を記述
-    static int const1;
+    const int const1 = 1;
     // ここに定数変数2を記述
-    static long const2;
+    const float const2 = 1.1;
     // ここに定数変数3を記述
-    static long long const3;
+    const char const3 = 'a';
 
     // 次の行を変更する必要はありません。これらはプログラムの出力をチェックするためのものです。
     std::cout << pizzaSlices << std::endl;
